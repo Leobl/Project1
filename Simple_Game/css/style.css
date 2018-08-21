@@ -1,0 +1,33 @@
+ * {
+    margin: auto;
+} 
+header { background-color:red; 
+
+}
+    #logo img {
+        width: 5%;
+        float: left;
+        
+    }
+    .main-content {
+         padding: 70px 0 ;
+         text-align: center;
+         margin-top: 10%;
+
+     }
+     .datatable,tr ,th {
+         
+            border: 1px solid black;
+            width: 20%;
+            
+         
+     }
+     #showNumber {
+       
+        text-align: center;
+       
+     }
+    
+
+
+

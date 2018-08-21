@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A game with js</title>
+    <link rel="stylesheet" href="./css/style.css">
+   
+   
+</head>
+<body>
+    <!-- <header>
+        <div id="logo">
+             <img   src="./Images/coding.png" alt="logo">
+
+
+        </div>
+    </header> -->
+        <div class="main-content">
+            <div id="showNumber">     </div>
+            <button id="startGameBtn" type="button" onclick="startGame()" >Start new game </button> 
+            <div id="table" >
+                    <table class="datatable">
+                            <tr>
+                                <th>    </th>
+                                <th>    </th>
+                                <th>    </th>
+                                <th>    </th>
+                                <th>    </th>
+                                </tr>
+                            <tr>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                            </tr>
+                            <tr>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                            </tr>
+                            <tr>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                            </tr>
+                            <tr>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                                    <th>    </th>
+                            </tr>
+                            
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+        <script>
+                function startGame(){
+                    document.getElementById("showNumber").innerHTML= Math.floor(Math.random()*7)+3;
+                
+                
+                }
+     
+                </script>
+</body>
+</html>
